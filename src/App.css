@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+}
+
+.vh {
+  height: 100vh;
+}
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.big-avatar {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.vh {
+  height: 100vh;
+}
+
+.mesage-box {
+  cursor: pointer;
+  transition: all ease-in-out 100ms;
+}
+
+.mesage-box:hover {
+  background-color: rgb(209, 209, 207);
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box::before {
+  position: absolute;
+  display: inline-block;
+  top: 10px;
+  left: 10px;
+}
+
+.search-input {
+  border-radius: 50px;
+  padding: 0 16px 0 36px;
+  outline: none;
+  background-color: burlywood;
+  width: 100%;
+  font-size: 15px;
+  height: 36px;
+  border: none;
+}
+
+.mesage-window {
+  overflow-y: scroll;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-bottom: 30px;
+}
+
+.maximum-height {
+  height: 100%;
+}
+
+.send-mesage {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 10px 50px;
+}
+
+.receive-mesage {
+  display: flex;
+  padding: 10px 50px;
+}
+
+.receive-mesage span {
+  color: white;
+  display: block;
+  background: rgba(10, 10, 14, 0.62);
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.send-mesage span {
+  color: white;
+  font-size: 16px;
+  display: block;
+  background: rgb(65, 65, 219);
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+.mesage-input{
+  padding: 5px 80px;
+}
+.mesage-input input{
+  border-radius: 25px;
+  font-weight: 700;
+}
+.user-list div{
+  cursor: pointer;
+}
+
+.user-list div:hover{
+  background-color: rgb(209, 209, 207);
+}
